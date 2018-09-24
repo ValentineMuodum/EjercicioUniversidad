@@ -20,6 +20,30 @@ public class Modulo {
         
     }
 
+    public String getConferencista() {
+        return Conferencista;
+    }
+
+    public void setConferencista(String Conferencista) {
+        this.Conferencista = Conferencista;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public Calificacion[] getCalificaciones() {
+        return calificaciones;
+    }
+
+    public void setCalificaciones(Calificacion[] calificaciones) {
+        this.calificaciones = calificaciones;
+    }
+
     
 
 }
